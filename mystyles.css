@@ -1,0 +1,21 @@
+body{
+    background-color: cornsilk;
+}
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(32, 13, 66);
+    font-style: italic;
+    text-decoration: underline;
+}
+p, table{
+    color: rgb(10, 26, 117);
+}
+table{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
