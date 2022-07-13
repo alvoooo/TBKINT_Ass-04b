@@ -1,6 +1,52 @@
 body{
+    margin: 20;
+    text-align: center;
     background-color: cornsilk;
 }
+.imageAlvin{
+    height: 85%;
+    width: 100%;
+    margin-top: 5px;
+}
+.navbar{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 70px;
+    background-color: rgb(18, 68, 126);
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar ul{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+.navbar li{
+    display: inline;
+}
+.button{
+    font-family: inherit;
+    font-size: 1cm;
+    font-style: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.button:link{
+    background-color: rgb(18, 68, 126);
+    color: white;
+}   
+.button:hover{
+    background-color: orange;
+
+}
+.p1{
+    text-align: left;
+    font-size: 25px;
+}
+
 h1,h2,h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(32, 13, 66);
@@ -18,4 +64,11 @@ table{
 table, th, td {
     border: 1px solid black;
     border-collapse:collapse;
+}
+.container{
+    margin: 2%;
+    padding: 10px;
+}
+footer{
+    background-color: palegreen;
 }
